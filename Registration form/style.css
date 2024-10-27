@@ -1,0 +1,41 @@
+.main{
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main h1{
+    color: purple;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+      display: block;
+      color: #555;
+      font-weight: bold;
+      margin-bottom: 5px;
+}
+ input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    } 
+button[type="submit"]{
+    padding: 15px;
+    background-color: purple;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
